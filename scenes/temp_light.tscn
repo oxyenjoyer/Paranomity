@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://ccd6baebmfxrt"]
+
+[node name="Temp_Light" type="Node3D"]
+
+[node name="CSGCylinder3D" type="CSGCylinder3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.300146, 0)
+height = 0.809277
+
+[node name="OmniLight3D" type="OmniLight3D" parent="CSGCylinder3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.4, 0)
+light_color = Color(0.995468, 0.979849, 5.46765e-05, 1)
+shadow_enabled = true
+omni_range = 20.808
