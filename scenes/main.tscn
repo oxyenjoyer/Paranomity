@@ -1,6 +1,7 @@
-[gd_scene load_steps=26 format=3 uid="uid://b7mdq70x55atb"]
+[gd_scene load_steps=27 format=3 uid="uid://b7mdq70x55atb"]
 
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_0wfyh"]
+[ext_resource type="Script" uid="uid://cqvxythy06x2y" path="res://scenes/main_script.gd" id="1_eb6dy"]
 [ext_resource type="Texture2D" uid="uid://bp27cyr60wvgp" path="res://textures/Dark/texture_03.png" id="1_jyhfs"]
 [ext_resource type="Texture2D" uid="uid://8lsacs0tx2m1" path="res://textures/Orange/texture_02.png" id="2_tbgi4"]
 [ext_resource type="Texture2D" uid="uid://de1262adkmn8v" path="res://textures/Orange/texture_12.png" id="3_choun"]
@@ -64,6 +65,7 @@ albedo_texture = ExtResource("9_choun")
 albedo_texture = ExtResource("9_choun")
 
 [node name="Main" type="Node3D"]
+script = ExtResource("1_eb6dy")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_qdrmd")
